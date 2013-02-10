@@ -39,7 +39,7 @@ what if, instead, we simply always tried to deliver the highest quality images
 to all devices and provied lower quality ones if we determined that this was a
 bad plan at runtime?  
 
-the approach jquery.bires is exactly this.
+the approach of jquery.bires is exactly this.
 
 the content intially comes down with low quality images, making page load time
 as fast as possible and giving the user the full content.  after all low
@@ -70,6 +70,7 @@ refs:
 * https://gist.github.com/paulirish/268257
 * https://github.com/desandro/imagesloaded
 * http://www.youtube.com/watch?v=Tj0lmwg27EY
+* http://dojo4.com/blog/size-matters
 * http://dojo4.com
 
 note:
