@@ -46,7 +46,7 @@ as fast as possible and giving the user the full content.  after all low
 quality images are loaded jquery.bires begins replacing low quality images
 with hi quality ones *serially*, timing the speed of each replacement.  if any
 replacement seems to be taking too long enhancement simply stops.  because
-jquery.bires loades the larger images one at the time the ui remains
+jquery.bires loads the larger images one at the time the ui remains
 responsive to user clicks and interactions.
 
 the key here is that, with today's high density mobile displays, it's actually
