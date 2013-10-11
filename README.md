@@ -11,7 +11,7 @@ in your htmlz generate img tagz with hi-res alternates
 
 ```html
 
-  <img class="bires" src="/small/image.png" data-hires="/large/image.png" style="min-width:100%;" />
+  <img class="bires" src="/small.png" data-hires="/large.png" />
 
 ```
 
