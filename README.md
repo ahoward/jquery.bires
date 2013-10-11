@@ -1,11 +1,11 @@
 NAME
-====
+----
 
 jquery.bires
 
 
 SYNOPSIS
-========
+--------
 
 in your htmlz generate img tagz with hi-res alternates
 
@@ -40,7 +40,7 @@ crappy
 
 
 DESCRIPTION
-===========
+-----------
 
 multiplexing which images to send to which devices is a sticky problem.
 
