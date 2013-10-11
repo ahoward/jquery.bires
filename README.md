@@ -20,7 +20,7 @@ make sure you include the js src(s)
 
 ```javascript
 
-  // you will needd https://github.com/desandro/imagesloaded too
+  // you will need https://github.com/desandro/imagesloaded
 
   <script src='/assets/jquery.bires.js'></script>
 
