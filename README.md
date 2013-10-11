@@ -7,7 +7,36 @@ jquery.bires
 SYNOPSIS
 ========
 
-bires.download();
+in your htmlz generate img tagz with hi-res alternates
+
+```html
+
+  <img class="bires" src="/small/image.png" data-hires="/large/image.png" style="min-width:100%;" />
+
+```
+
+
+make sure you include the js src(s)
+
+```javascript
+
+  // you will needd https://github.com/desandro/imagesloaded too
+
+  <script src='/assets/jquery.bires.js'></script>
+
+```
+
+and activate the progressive enhancement
+
+```javascript
+
+  bires.download();
+
+
+```
+
+this will shut itself off if the bandwidth looks to be 3/4g-ish or otherwise
+crappy
 
 
 DESCRIPTION
@@ -18,7 +47,7 @@ multiplexing which images to send to which devices is a sticky problem.
 some people use device detection (user-agents) to determine who wants big
 images.  sometimes media queries/screen width is used as a proxy.  
 
-both are poor choices.
+_both are poor choices_.
 
 these days one can easily desire hi-res images to be displayed using a retina
 screened tablet on local wifi.  with 'normal' image enhancement approaches
@@ -71,6 +100,10 @@ refs:
 * https://github.com/desandro/imagesloaded
 * http://www.youtube.com/watch?v=Tj0lmwg27EY
 * http://dojo4.com/blog/size-matters
+* http://dojo4.com
+
+examples:
+
 * http://dojo4.com
 
 note:
