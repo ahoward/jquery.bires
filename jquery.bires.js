@@ -77,7 +77,7 @@
 
       img.data('lores', img.attr('src'));
 
-      var src = img.data('hires');
+      var src = img.data('hires') || img.data('bires');
 
       this.timer.start();
 
@@ -117,9 +117,9 @@
     };
 
     bires.downloader.prototype.log = function(string){
-      //if(this.debug){
+      if(this.debug){
         try{ console.log(string) } catch(e){};
-      //}
+      }
     };
 
 
